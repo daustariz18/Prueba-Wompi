@@ -16,7 +16,7 @@ Según las instrucciones del documento oficial, el script debe:
 
 * Guardar el resultado en formato Parquet para su posterior análisis.
 
-Estructura del proyecto
+## Estructura del proyecto
 
 Prueba-Wompi/
 ├── src/spark_transactions.py
@@ -24,7 +24,7 @@ Prueba-Wompi/
 ├── README.md
 └── requirements.txt
 
-Instrucciones de ejecución
+## Instrucciones de ejecución
 1. Instalar dependencias
    pip install -r requirements.txt
 2. Ejecutar el script
@@ -32,7 +32,7 @@ Instrucciones de ejecución
 3. Resultado
    output/resumen_transacciones.parquet
 
-Detalles de la solución
+##Detalles de la solución
 
 * Se ejecuta PySpark en modo local (local[*]), permitiendo correr el proceso sin un clúster.
 
@@ -44,15 +44,19 @@ Detalles de la solución
 
 * El resultado es compatible con lectores Parquet como PySpark, Pandas, Athena o Redshift Spectrum.
 
-Dependencias
+## Dependencias
 pyspark==3.5.0
 pandas
 pyarrow
 
-Esquema final del archivo de salida
+## Esquema final del archivo de salida
 
 * bin
 * date
 * transaction_count
 * total_approved_amount
+   
+
+
+
    
