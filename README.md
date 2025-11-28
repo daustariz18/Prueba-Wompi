@@ -68,4 +68,8 @@ pyarrow
 - bin  
 - date  
 - transaction_count  
+<<<<<<< HEAD
 - total_approved_amount
+=======
+- total_approved_amount
+>>>>>>> 9348dffb4f6adc785e62673738318832794d7867
